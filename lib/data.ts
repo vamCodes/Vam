@@ -2,9 +2,6 @@ import React from "react";
 import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { LuLaptop} from "react-icons/lu";
-import vamfit from "../public/VamFit2.png"
-import vamGram from "../public/vamGram.png"
-import CodeVam from "../public/CodeVam.png"
 import work1 from "../public/work1.png"; // Springer book chapter
 import work2 from "../public/work2.png"; // Real-time Order Book Dashboard
 import work3 from "../public/work3.png"; // Masculine Enough Workshop
@@ -101,36 +98,6 @@ export const myWorkData = [
     link: "https://vamdash-1.vercel.app/", // replace with live link if available
   },
 ] as const;
-export const projectsData = [
-  {
-    title: "VamGram",
-    description:
-      "A comprehensive MERN stack application featuring JWT authentication, React Quill for rich text editing, and advanced state management techniques",
-    tags: ["React", "Node.js", "MongoDB", "Express", "RestApi"],
-    imageUrl: vamGram,
-  },
-  {
-    title: "CodeVam",
-    description:
-      "An educational resource for enhancing Online Coding with React Router v6 for modern UI development.",
-    tags: ["React", "React Router", "CSS", "JavaScript"],
-  imageUrl: CodeVam,
-  },
-  {
-    title: "VamFit",
-    description:
-      "I've developed a cross-platform React Native app enabling users to search for foods, view nutrition details, and monitor daily consumption seamlessly on iOS and Android.",
-    tags: ["ReactNatve", "Axios", "JavaScript"],
-     imageUrl: vamfit,
-  },
-  {
-    title: "VamDash",
-    description:
-      "VamDash, a versatile dashboard leveraging HTML, CSS, and Vanilla JS with Google Material components, enhances CSS skills and offers a responsive design for iPad to desktop viewing.",
-    tags: ["HTML", "JavaScript", "CSS", "MaterialUI"],
-    imageUrl: VamDash,
-  }
-] as const;
 
 export const skillsData = [
   "HTML",
@@ -144,7 +111,7 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Redux",
-  "GraphQL",,
+  "GraphQL",
   "Express",
   "PostgreSQL",
   "C++",
