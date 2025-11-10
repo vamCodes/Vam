@@ -11,3 +11,18 @@ html.dark{
 .borderBlack{
     @apply border border-black/10;
 }
+
+@keyframes cyberGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 4px #00ffff) drop-shadow(0 0 8px #00ffff);
+    opacity: 0.8;
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #00ffff) drop-shadow(0 0 40px #ff00ff);
+    opacity: 1;
+  }
+}
+
+.animate-cyberGlow {
+  animation: cyberGlow 3s ease-in-out infinite;
+}

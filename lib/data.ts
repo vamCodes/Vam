@@ -1,10 +1,13 @@
 import React from "react";
-import { PiBookOpenText } from "react-icons/pi";
+import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import vamfit from "../public/VamFit.png"
+import { LuLaptop} from "react-icons/lu";
+import vamfit from "../public/VamFit2.png"
 import vamGram from "../public/vamGram.png"
 import CodeVam from "../public/CodeVam.png"
+import work1 from "../public/work1.png"; // Springer book chapter
+import work2 from "../public/work2.png"; // Real-time Order Book Dashboard
+import work3 from "../public/work3.png"; // Masculine Enough Workshop
 import VamDash from "../public/VamDash.png"
 
 export const links = [
@@ -36,33 +39,68 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Authored a Book Chapter",
-    location: "Greater Noida, Uttar Pradesh",
-    description: 
-      "I authored a book chapter titled 'Machine Learning-Driven Task Offloading for Smart Vehicular Edge Computing: Taxonomy, Issues, and Opportunities,' accepted for publication in Springer.",
-    icon: React.createElement(PiBookOpenText),
-    date: "2024",
+    title: "Software Engineering Intern – Unque",
+    location: "Remote",
+    description:
+      "Collaborated with a 5-member team under the CTO to develop a React Native mobile app. Integrated backend APIs, implemented AWS CI/CD pipelines, and managed MongoDB for seamless performance and deployment.",
+    icon: React.createElement(LuLaptop),
+    date: "Dec 2024 – Mar 2025",
   },
   {
-    title: "Full Stack Specialization",
-    location: "Noida, Uttar Pradesh",
-    description: 
-      "During my BTech specialization in Full Stack from 2022 to 2024, I learned HTML, CSS, JavaScript, Node.js, and various other technologies. Previously, I worked as a front-end developer  in one team project and 1 year in another project, during which I upskilled to become a full-stack developer.",
-    icon: React.createElement(FaReact),
-    date: "2022 - 2024",
-  }
-  ,
+    title: "Full Stack Developer Intern – TEMS Tech Solutions",
+    location: "Remote",
+    description:
+      "Built an automated content pipeline connecting Twitter, OpenAI, and WordPress using Node.js. Developed a dynamic WordPress frontend and optimized AI-generated blog content for engagement and readability.",
+    icon: React.createElement(FaNodeJs),
+    date: "Jul 2024 – Oct 2024",
+  },
   {
-    title: "Got Enrolled in BTech CSE",
-    location: "Noida, Uttar Pradesh",
-    description: 
-      "I graduated 12th with 92% and received a 35% scholarship to pursue my passion for technology. I chose to study Computer Science and Engineering (CSE) and am now a full-stack developer working on my individual freelance projects. I'm open to full-time opportunities.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021 - present"
-  }
-  ,
+    title: "React Developer – Xebia",
+    location: "Remote",
+    description:
+      "Designed and implemented a responsive healthcare management dashboard using React and Tailwind CSS. Integrated REST APIs for real-time data and collaborated with backend teams to streamline data flow and authentication.",
+    icon: React.createElement(FaReact),
+    date: "Jun 2024 – Jul 2024",
+  },
 ] as const;
 
+export const myWorkData = [
+  {
+    title: "Book Chapter – Springer",
+    description: `“Machine Learning-Driven Task Offloading for Smart Vehicle Edge Computing” is now live with Springer! Co-authored with Professor Dr. Aditya Bhardwaj, this chapter reflects mentorship, collaboration, and meticulous research in smart vehicle edge computing.`,
+    tags: ["Research", "Machine Learning", "Smart Vehicles", "Publication"],
+    imageUrl: work3,
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-80949-1_9",
+  },
+  {
+    title: "Real-time Order Book Dashboard",
+    description: `A React + Next.js dashboard for live tradebook data:
+- WebSocket-based real-time order book
+- Spread chart to visualize bid-ask spread dynamically
+- Modular hooks: useOrderBook, useSpreadData, useProcessData
+- Clean component structure and ContextAPI state management`,
+    tags: ["React", "Next.js", "ContextAPI", "WebSocket", "Charts"],
+    imageUrl: work2,
+    link: "https://github.com/vamCodes/VamCharts", // replace with live link if available
+  },
+  {
+    title: "Masculine Enough Workshop",
+    description: `Hosted a workshop dissecting toxic masculinity and queer erasure:
+- Asked hard questions, shared uncomfortable truths
+- Built safer, more reflective spaces
+- Emphasized change, reflection, and community care`,
+    tags: ["Workshop", "Community", "Gender Justice", "Queer Voices"],
+    imageUrl: work1,
+    link: "https://www.linkedin.com/posts/singh-shvam_toxicmasculinity-queervoices-masculineenough-activity-7318825983006896128-wRYm?utm_source=share&utm_medium=member_desktop&rcm=ACoAADu-SMQBjRBLtQM3x0ECSxMmQoKRKRtTwis", // replace with event recording link if available
+  },
+  {
+    title: "VamDash",
+    description: `A versatile dashboard leveraging HTML, CSS, and Vanilla JS with Google Material components. Offers responsive design from iPad to desktop and enhances CSS/JS skills.`,
+    tags: ["HTML", "CSS", "JavaScript", "MaterialUI"],
+    imageUrl: VamDash,
+    link: "https://vamdash-1.vercel.app/", // replace with live link if available
+  },
+] as const;
 export const projectsData = [
   {
     title: "VamGram",

@@ -18,29 +18,23 @@ export default function About() {
    id="about"
    >
     <Sheading name='About me'/>
-   <p className='mb-3 '>
-   Currently enrolled in a degree in{" "}
-        <span className="font-medium">Computer Science Engineering</span>,I am a {" "}
-        <span className="font-medium">full-stack web developer</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Express.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and FireBase. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position/internship</span> as a software
-        developer.
-   </p>
-   <p>
-   <span className="italic">Outside of my professional life</span>,I am passionate about maintaining a balanced lifestyle
-   I work out daily, which helps me stay focused and energized.I also have a keen interest{" "}
-        <span className="font-medium"> in fashion, enjoying the creativity and expression it brings.</span>
-       
+   <p className='mb-3'>
+  I recently graduated with a <span className="font-medium">B.Tech in Computer Science and Engineering</span>, 
+  specializing in <span className="font-medium">Full-Stack Web Development</span>. 
+  With <span className="font-medium">3+ internships</span> in software engineering, 
+  my core stack includes <span className="font-medium">React, Node.js, Express.js, and MongoDB</span>, 
+  along with experience in <span className="font-medium">TypeScript</span> and <span className="font-medium">Firebase</span>. 
+  I aspire to work at the intersection of <span className="italic">technology and ethics</span>, 
+  creating systems that are <span className="underline">bias-free, inclusive, and equitable</span>. 
+  I’m currently preparing to pursue a <span className="font-medium">Master’s in Computer Science</span> to deepen my expertise and expand my perspective.
+</p>
 
-   </p>
+<p>
+  <span className="italic">Beyond my professional side</span>, I’m deeply passionate about 
+  <span className="font-medium"> fitness, self-expression, and writing</span>. 
+  Working out grounds me, fashion fuels my creativity, and reading keeps me questioning the world around me. 
+  These passions shape how I build, think, and live—with curiosity, discipline, and authenticity.
+</p>
    </motion.section>
 
   )
