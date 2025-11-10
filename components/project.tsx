@@ -8,7 +8,7 @@ import { useScroll } from "framer-motion"
 type ProjectCardProps = {
   title: string
   description: string
-  tags: string[]
+  tags: readonly string[]
   imageUrl: string
   link?: string // optional link
 }
