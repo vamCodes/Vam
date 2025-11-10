@@ -2,6 +2,7 @@
 
 import React, { useRef } from "react"
 import { motion, useTransform } from "framer-motion"
+import { StaticImageData } from "next/image"
 import Image from "next/image"
 import { useScroll } from "framer-motion"
 
@@ -9,7 +10,7 @@ type ProjectCardProps = {
   title: string
   description: string
   tags: readonly string[]
-  imageUrl: string
+ imageUrl: string | StaticImageData;
   link?: string // optional link
 }
 
